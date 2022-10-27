@@ -45,8 +45,8 @@ setLight(!isLight)
                 
                   user?.uid ?
                   <>
-                  <Link className='text-white me-3 mt-1' style={{textDecoration:'none',color:'white',marginRight:'20px'}}> {user?.displayName}</Link>
-                  <div variant='dark' className='mt-1' onClick={handleLogout}><Link style={{textDecoration:'none',color:'white',marginRight:'20px'}} >Logout</Link></div>
+                  <Link className='text-white me-3 mt-3' style={{textDecoration:'none',color:'white',marginRight:'20px'}}> {user?.displayName}</Link>
+                  <div variant='dark' className='mt-3' onClick={handleLogout}><Link style={{textDecoration:'none',color:'white',marginRight:'20px'}} >Logout</Link></div>
                   </>
                   : <>
                             <Link style={{textDecoration:'none',color:'white',marginRight:'20px'}} to="/login">Login</Link>
